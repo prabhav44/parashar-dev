@@ -1,6 +1,6 @@
 .navbar-img {
     content:url("/img/white_logo_transparent_background.png");
-    width: 85%;
+    width: 65%;
     height: 100%;
 }
 
@@ -80,10 +80,24 @@ nav.fill ul li a:hover:after {
     
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 767px) {
     .navbar-img {
         content:url("/img/white_logo_transparent_background_mobile.png");
-        width: 50%;
-        height: 50%;
+        width: 5%;
+        height: 5%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .navbar-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .navbar-img {
+        width: 85%;
+        height: 100%;
     }
 }
