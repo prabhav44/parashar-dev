@@ -1,6 +1,6 @@
 .navbar-img {
     content:url("/img/white_logo_transparent_background.png");
-    width: 65%;
+    width: 55%;
     height: 100%;
 }
 
@@ -97,7 +97,7 @@ nav.fill ul li a:hover:after {
 
 @media (max-width: 1400px) {
     .navbar-img {
-        width: 85%;
+        width: 75%;
         height: 100%;
     }
 }
