@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+variables:
+  BUCKET_NAME: parashar.dev
+
+deploys3:
+  stage: deploy
+  tags:
+    - aws-runner
+  script:
+    - aws s3 sync . s3://${BUCKET_NAME} --delete --exclude ".git/*" --exclude "README.md" --exclude "*.yml"
