@@ -6,7 +6,14 @@ $(document).ready(() => {
     };
     var mainComponentLocation = '/components/'+htmlDict[window.location.pathname];
     console.log(mainComponentLocation)
-    $('#navbar_wrapper').load('/components/navbar.html');    
+    $('#navbar_wrapper').load('/components/navbar.html', () => {
+        $('#logoLink').on('mouseover', function() {
+            $(this).find('img').attr('src', '/img/logo_transparent_background.png');
+        });
+        $('#logoLink').on('mouseout', function() {
+            $(this).find('img').attr('src', '/img/white_logo_transparent_background.png');
+        });
+    });    
     $('#footer_wrapper').load('/components/footer.html');
 });
 
