@@ -1,17 +1,23 @@
-.navbar-img {
-    content:url("/img/white_logo_transparent_background.png");
-    width: 55%;
-    height: 100%;
+/*Nav Background */
+.navbar-custom {
+    background-color: rgba(90,90,90, 0.95);
 }
 
+/*Nav toggler bg color*/
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+/*Link colors*/
 nav ul li a {
     color: #ffffff;
 }
 
 nav ul li a:hover {
-    color: #e5e5e5;
+    color: #1089ff;
 }
 
+/* Stroke animation under links*/
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
