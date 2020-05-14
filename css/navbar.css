@@ -5,7 +5,7 @@
 }
 
 nav ul li a {
-    color: #eeeeee;
+    color: #ffffff;
 }
 
 nav ul li a:hover {
@@ -32,7 +32,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: #1089ff;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
@@ -59,45 +59,4 @@ nav.fill ul li a:hover:after {
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
-}
-
-@media (max-width: 767.98px) {
-    .navbar-toggler {
-        width: 47px;
-        height: 34px;
-        background-color: #000000;
-    }
-
-    .navbar-toggler .line{
-        width: 100%;
-        float: right;
-        height: 2px;
-        background-color: #ffffff;
-        margin-bottom: 5px;
-    }
-
-    
-    
-}
-
-@media (max-width: 767px) {
-    .navbar-img {
-        content:url("/img/white_logo_transparent_background_mobile.png");
-        width: 5%;
-        height: 5%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .navbar-img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (max-width: 1400px) {
-    .navbar-img {
-        width: 75%;
-        height: 100%;
-    }
 }
