@@ -9,7 +9,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #1089ff;
+  color: #1190cb;
 }
 
 /* Stroke animation under links*/
@@ -33,7 +33,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #1089ff;
+  background: #1190cb;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
