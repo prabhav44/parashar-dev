@@ -1,4 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #overlay {
-    position: relative;
-    padding: 0px;
+  position: relative;
+  padding: 0px;
+}
+
+.bg-custom-gray {
+  background-color: rgba(52,58,64, 0.95);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form {
+  margin-top: 10%;
+}
+
+.services-container {
+  margin-top: 5%;
+}
+
+.service-logo {
+  font-size: 50px;
+}
+
+.input-box-indent {
+  text-indent: 12px;
+}
+
+.link-format {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-format:hover {
+  color: #1089ff;
+  text-decoration: none;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .contact-form {
+    margin-top: 45%;
   }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    position: static;
+  }
+}

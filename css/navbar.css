@@ -1,20 +1,15 @@
-/*Nav Background */
-.navbar-custom {
-    background-color: rgba(90,90,90, 0.95);
-}
-
 /*Nav toggler bg color*/
 .navbar-toggler {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /*Link colors*/
 nav ul li a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 nav ul li a:hover {
-    color: #1089ff;
+  color: #1089ff;
 }
 
 /* Stroke animation under links*/
