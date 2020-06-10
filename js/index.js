@@ -29,19 +29,18 @@ function sendQuoteRequest(emailAddress, fullname, phoneNumber, companyName, comm
     })
     .then((response) => {return response.json()})
     .then((data) => {
-        console.log(data)
-        button.innerHTML = "Submitted!"
+        let response = JSON.parse(data.body);
+
+        if (response.status == 'success') {
+            button.innerHTML = "Submitted!";
+        } else {
+            button.innerHTML = "Failed, Try again"
+        }
+        
     })
 }
 
 $(document).ready(() => {
-    var htmlDict = {
-        "/": "home.html",
-        "/index.html": "home.html",
-        "/index": "home.html"
-    };
-    var mainComponentLocation = '/components/'+htmlDict[window.location.pathname];
-    console.log(mainComponentLocation)
     $('#navbar_wrapper').load('/components/navbar.html', () => {
         $('#logoLink').on('mouseover', function() {
             $(this).find('img').attr('src', '/img/logo_transparent_background.png');
