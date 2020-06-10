@@ -1,0 +1,33 @@
+.contact-form {
+  margin-top: 7%;
+}
+  
+.services-container {
+  margin-top: 3%;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .contact-form {
+    margin-top: 15%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .contact-form {
+    margin-top: 100%;
+  }
+  .services-container {
+    margin-top: 45%;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
