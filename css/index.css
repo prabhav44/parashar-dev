@@ -1,14 +1,16 @@
 .contact-form {
-  margin-top: 7%;
+  margin-top: 3%;
 }
   
 .services-container {
   margin-top: 3%;
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-
+/* Large devices (desktops, less than 1210px) */
+@media (max-width: 1210px) { 
+  .contact-form {
+    margin-top: 10%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
